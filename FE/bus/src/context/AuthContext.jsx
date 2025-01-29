@@ -13,7 +13,7 @@ export const AuthProvider = ({ children }) => {
   const signup = async (username, password, email) => {
     try {
       // Send signup request to the backend API
-      const response = await axios.post("https://busproject-hvdj.onrender.com/signup", {
+      const response = await axios.post("http://localhost:5000/signup", {
         username,
         password,
         email,
