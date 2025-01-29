@@ -1,6 +1,6 @@
 // api.js
 import axios from "axios";
-const BASE_URL = "http://localhost:5000"; // Update to your backend URL
+const BASE_URL = "https://busproject-hvdj.onrender.com"; // Update to your backend URL
 
 // Signup API request
 export const signupUser = async (username, email, password) => {
